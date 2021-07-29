@@ -1,0 +1,213 @@
+h1 {
+    font-family: georgia;
+    text-align: center;
+}
+
+.leftSide { 
+    position: absolute;
+    background: #E34234;
+    width: 350px;
+    height: 600px;
+    top: 10%;
+    border-radius: 3%;
+    border-color: black;
+    border-style: solid;
+}
+
+.camera {
+    border-radius: 50%;
+    background-image: radial-gradient(#F0F8FF, #87CEFA);
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin-top: 195px;
+    margin-left: -250px;
+    box-shadow: 2px 2px 2px #E6E6FA;
+}
+
+.topPiece {
+    background: #800000;
+    position: relative;
+    width: 350px;
+    height: 100px;
+    border-radius: 5%;
+    border-bottom-right-radius: 75%;
+}
+
+.display {
+    margin: auto;
+    position: relative;
+    shape-outside: inset(75px);
+    background:   hsl(56, 60%, 92%);
+    width: 250px;
+    height: 200px;
+    top: 100px;
+    border-radius: 3%;
+    border-bottom-left-radius: 15%;
+}
+
+.display2 {
+    margin: auto;
+    position: relative;
+    background:   black;
+    width: 200px;
+    height: 150px;
+    bottom: 75px;
+    border-radius: 3%;
+}
+
+.up {
+    background: black;
+    height: 30px;
+    width: 30px;
+    margin-top: 475px;
+    margin-left: 250px;
+    position: absolute; 
+}
+
+.center {
+    background: black;
+    height: 30px;
+    width: 30px;
+    margin-top: 500px;
+    margin-left: 250px;
+    position: absolute;  
+}
+
+.bottom {
+    background: black;
+    height: 30px;
+    width: 30px;
+    margin-top: 525px;
+    margin-left: 250px;
+    position: absolute; 
+}
+
+.left {
+    background: black;
+    height: 30px;
+    width: 30px;
+    margin-top: 500px;
+    margin-left: 225px;
+    position: absolute;
+}
+
+.right {
+    background: black;
+    height: 30px;
+    width: 30px;
+    margin-top: 500px;
+    margin-left: 275px;
+    position: absolute; 
+}
+
+.button1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background: black;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+
+.redButton {
+    width: 50px;
+    height: 8px;
+    background: orange;
+    margin-top: 335px;
+    margin-left: 100px;
+    position: absolute;
+    border-radius: 25%;
+}
+
+.blueButton {
+    width: 50px;
+    height: 8px;
+    background: blue;
+    margin-top: 335px;
+    margin-left: 175px;
+    position: absolute;
+    border-radius: 25%;
+}
+
+.greenButton {
+    width: 100px;
+    height: 60px;
+    background: lightgreen;
+    margin-top: 375px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.cylinder {
+    width: 50px;
+    height: 600px;
+    margin-top: 700px;
+    background-image: radial-gradient(#E34234, #B22222);
+    margin-left: 400px;
+    position: absolute; 
+    border-color: black;
+    border-style: solid;
+    border-radius: 3%;
+}
+
+.screw1 {
+    width: 50px;
+    position: relative;
+    margin-top: 50px;
+    height: 50px;
+    background-image: radial-gradient(#B22222, #8B0000);
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+.screw2 {
+    width: 50px;
+    position: relative;
+    margin-top: 400px;
+    height: 50px;
+    background-image: radial-gradient(#B22222, #8B0000);
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+.rightSide {
+    position: absolute;
+    background: #E34234;
+    width: 350px;
+    height: 550px;
+    border-radius: 3%;
+    border-color: black;
+    border-style: solid;
+    margin-left: 805px;
+    margin-top: 740px;
+
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 300px;
+}
+
+.displayRight {
+    margin: auto;
+    position: relative;
+    shape-outside: inset(75px);
+    background:   hsl(56, 60%, 92%);
+    width: 300px;
+    height: 150px;
+    top: 100px;
+    border-radius: 3%;
+}
+
+#input {
+    margin-top: 125px;
+    margin-left: 50px;
+}
