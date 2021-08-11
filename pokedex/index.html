@@ -7,6 +7,7 @@
     <title>Pokédex</title>
     <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
+    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
 </head>
 
 <body>
@@ -18,10 +19,10 @@
         <div class="bottom"></div>
         <div class="right"></div>
         <div class="topPiece"></div>    
-        <div class="button1" onclick="displayName()"></div>
+        <div class="button1" onclick="searchPokemon()"></div>
         <div class="redButton"></div>
         <div class="blueButton"></div>
-        <div class="greenButton"></div>
+        <div class="greenButton" onclick="remove()"></div>
         <div class="display"></div>
             <div class="display2"></div>
         <div class="dpad"></div>
@@ -32,7 +33,7 @@
     </div>
     <div class="rightSide">
         <div class="displayRight" id="disRight"></div>
-        <input id="input" type="number">
+        <input id="input" type="text">
     </div>
    
     <div class="camera"></div>

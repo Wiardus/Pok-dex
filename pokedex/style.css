@@ -140,6 +140,14 @@ h1 {
     position: absolute;
 }
 
+.greenButton::before {
+    content: "Delete";
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
 .cylinder {
     width: 50px;
     height: 600px;
@@ -210,4 +218,9 @@ body {
 #input {
     margin-top: 125px;
     margin-left: 50px;
+}
+
+p {
+    font-family: arial;
+    position: absolute;
 }
