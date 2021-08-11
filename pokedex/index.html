@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
 </head>
@@ -13,10 +14,12 @@
 <body>
     <h1>Pokédex</h1>
     <div class="leftSide">
-        <div class="up"></div>
-        <div class="center"></div>
-        <div class="left"></div>
-        <div class="bottom"></div>
+        <div class="dPad">
+            <div class="up"></div>
+            <div class="center"></div>
+            <div class="left"></div>
+            <div class="bottom"></div>
+        </div>
         <div class="right"></div>
         <div class="topPiece"></div>    
         <div class="button1" onclick="searchPokemon()"></div>
@@ -31,9 +34,19 @@
         <div class="screw1"></div>
         <div class="screw2"></div>
     </div>
-    <div class="rightSide">
+    <div class="rightSide" id="right">
         <div class="displayRight" id="disRight"></div>
-        <input id="input" type="text">
+        <input id="input" type="text" placeholder="Enter Pokémon name">
+        <div id="sqr1" class="blueSquare"></div>
+        <div id="sqr2" class="blueSquare"></div>
+        <div id="sqr3" class="blueSquare"></div>
+        <div id="sqr4" class="blueSquare"></div>
+        <div id="sqr5" class="blueSquare"></div>
+        <div id="sqr6" class="blueSquare"></div>
+        <div id="sqr7" class="blueSquare"></div>
+        <div id="sqr8" class="blueSquare"></div>
+        <div id="sqr9" class="blueSquare"></div>
+        <div id="sqr10" class="blueSquare"></div>
     </div>
    
     <div class="camera"></div>

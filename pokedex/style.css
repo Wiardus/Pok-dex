@@ -1,3 +1,4 @@
+
 h1 {
     font-family: georgia;
     text-align: center;
@@ -15,6 +16,7 @@ h1 {
 }
 
 .camera {
+    display: flex;
     border-radius: 50%;
     background-image: radial-gradient(#F0F8FF, #87CEFA);
     width: 75px;
@@ -63,6 +65,7 @@ h1 {
     margin-top: 475px;
     margin-left: 250px;
     position: absolute; 
+    box-shadow: 5px 5px 5px black;
 }
 
 .center {
@@ -81,6 +84,7 @@ h1 {
     margin-top: 525px;
     margin-left: 250px;
     position: absolute; 
+    box-shadow: 5px 5px 5px black;
 }
 
 .left {
@@ -90,6 +94,7 @@ h1 {
     margin-top: 500px;
     margin-left: 225px;
     position: absolute;
+    box-shadow: 5px 5px 5px black;
 }
 
 .right {
@@ -99,6 +104,7 @@ h1 {
     margin-top: 500px;
     margin-left: 275px;
     position: absolute; 
+    box-shadow: 5px 5px 5px black;
 }
 
 .button1 {
@@ -109,6 +115,10 @@ h1 {
     background: black;
     margin-top: 350px;
     margin-left: 30px;
+}
+
+.button1:hover {
+    transform: scale(110%);
 }
 
 .redButton {
@@ -138,6 +148,7 @@ h1 {
     margin-top: 375px;
     margin-left: 100px;
     position: absolute;
+    border-radius: 5%;
 }
 
 .greenButton::before {
@@ -146,6 +157,10 @@ h1 {
     justify-content: center;
     font-family: Calibri;
     font-weight: bold;
+}
+
+.greenButton:hover {
+    transform: scale(110%);
 }
 
 .cylinder {
@@ -220,7 +235,144 @@ body {
     margin-left: 50px;
 }
 
-p {
-    font-family: arial;
+.result {
+    font-family: 'Press Start 2P';
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.dPad {
+    z-index: 10; 
+    box-shadow: 10px 5px 5px silver;
+}
+
+.blueSquare {
+    display: flex;  
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
     position: absolute;
+    border-radius: 5%;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr2 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr3 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 145px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr4 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr5 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 255px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr6 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 35px;
+    margin-top: 75px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr7 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 90px;
+    margin-top: 75px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr8 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 145px;
+    margin-top: 75px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr9 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 200px;
+    margin-top: 75px;
+    border-style: solid;
+    border-color: black;
+}
+
+#sqr10 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #7CB9E8;
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 255px;
+    margin-top: 75px;
+    border-style: solid;
+    border-color: black;
 }

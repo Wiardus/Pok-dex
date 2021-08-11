@@ -6,12 +6,16 @@ function searchPokemon() {
         console.log(response)
 
         const displayRight = document.getElementById('disRight')
-        let pokemonName = document.createElement('p')
+        let pokemonName = document.createElement('p' + 'br')
 
-        pokemonName.innerHTML = "Name: " + response.name
+        pokemonName.innerHTML = "Name: " + response.name + "<br>"
         pokemonName.setAttribute('id', 'pokemonName')
+        pokemonName.setAttribute('class', 'result')
         displayRight.appendChild(pokemonName)
         
+        response.types.forEach(type => {          
+            pokemonName.innerHTML += "Type: " + type.type.name
+        })
 
        //const display2 = document.getElementById('display2')
        // display2.innerHTML = response.sprites.front_default
@@ -25,9 +29,8 @@ const remove = () => {
 
 
 
-
-
-
+//Old test before the PokeApi was connected to the project
+/*
 let bulbasaur = {
     name: 'Bulbasaur',
     type: 'Grass',
@@ -51,6 +54,7 @@ let venusaur = {
     weight: '100 kg',
     height: '2 m'
 }
+*/
 
 // displays the properties of the Pokémon on the screen
 /* function displayName() {
