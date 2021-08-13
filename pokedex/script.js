@@ -14,7 +14,7 @@ function searchPokemon() {
         displayRight.appendChild(pokemonName)
         
         response.types.forEach(type => {          
-            pokemonName.innerHTML += "Type: " + type.type.name
+            pokemonName.innerHTML += "Type: " + type.type.name + "<br>"
         })
 
        //const display2 = document.getElementById('display2')
