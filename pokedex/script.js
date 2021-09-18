@@ -24,11 +24,7 @@ function searchPokemon() {
         
         response.types.forEach(type => {          
             pokemonName.innerHTML += "Type: " + type.type.name + "<br>"
-        })
-
-        
-       // display2.innerHTML = response.sprites.front_default
-        
+        })        
     }) 
 }   
 
