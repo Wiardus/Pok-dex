@@ -485,3 +485,8 @@ body {
     margin-left: 185px;
     margin-top: 20px;
 }
+
+img {
+    transform: scale(130%);
+    
+}

@@ -12,12 +12,21 @@ function searchPokemon() {
         pokemonName.setAttribute('id', 'pokemonName')
         pokemonName.setAttribute('class', 'result')
         displayRight.appendChild(pokemonName)
+
+        const display2 = document.getElementById('display2')
+        let pokeImg = document.createElement('img')
+        pokeImg.src = response.sprites.front_default
+        display2.appendChild(pokeImg)
+
+        let pokeImgShiny = document.createElement('img')
+        pokeImgShiny.src = response.sprites.front_shiny
+        display2.appendChild(pokeImgShiny)
         
         response.types.forEach(type => {          
             pokemonName.innerHTML += "Type: " + type.type.name + "<br>"
         })
 
-       //const display2 = document.getElementById('display2')
+        
        // display2.innerHTML = response.sprites.front_default
         
     }) 
@@ -25,6 +34,7 @@ function searchPokemon() {
 
 const remove = () => {
     pokemonName.remove();
+    display2.innerHTML = null;
 }
 
 
